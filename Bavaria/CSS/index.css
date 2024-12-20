@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divlogo {
+    width: 238px;
+    height: 38px;
+    margin-top: 24px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 127px 3px 96px;
+    grid-column-gap: 7px;
+}
+
+.logoBavaria {
+    width: 127px;
+    height: 38px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37.5px;
+}
+
+.circle {
+    width: 5px;
+    height: 5px;
+    background-color: rgb(0, 0, 0, 0.4);
+    border-radius: 50%;
+}
+
+.logoPortal {
+    width: 96px;
+    height: 28px;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 4px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0, 0.6);
+}
+
